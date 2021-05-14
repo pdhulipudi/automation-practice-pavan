@@ -1,0 +1,70 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620992812270' stop='1620992898935'>
+    <name>Automation Practice Product Purchase Flow</name>
+    <title>Automation Practice Product Purchase Flow</title>
+    <test-cases>
+        <test-case start='1620992812279' status='passed' stop='1620992898933'>
+            <name>As a user, I should be able to register and able to chekout a product</name>
+            <title>As a user, I should be able to register and able to chekout a product</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps>
+                <step start='1620992812281' status='passed' stop='1620992827171'>
+                    <name>Given Im on the Home page</name>
+                    <title>Given Im on the Home page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620992827171' status='passed' stop='1620992830522'>
+                    <name>When I click on sign-in and submit</name>
+                    <title>When I click on sign-in and submit</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620992830522' status='passed' stop='1620992830544'>
+                    <name>Then Im on the home page</name>
+                    <title>Then Im on the home page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620992830544' status='passed' stop='1620992835224'>
+                    <name>Then Fill Registration Form</name>
+                    <title>Then Fill Registration Form</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620992835225' status='passed' stop='1620992846470'>
+                    <name>Then Verify Registration and Logout</name>
+                    <title>Then Verify Registration and Logout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620992846470' status='passed' stop='1620992851739'>
+                    <name>Then Login and verify</name>
+                    <title>Then Login and verify</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620992851739' status='passed' stop='1620992865401'>
+                    <name>When I Enter product name and search, Add to Cart</name>
+                    <title>When I Enter product name and search, Add to Cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620992865401' status='passed' stop='1620992898931'>
+                    <name>Then Proceed to checkout and verify payments page</name>
+                    <title>Then Proceed to checkout and verify payments page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,33 @@
+{
+  "name": "sampletest",
+  "version": "1.0.0",
+  "description": "Test Package",
+  "main": "index.js",
+  "scripts": {
+    "test": "Cucumber"
+  },
+  "keywords": [
+    "CucumberJs",
+    "WebdriverIO"
+  ],
+  "author": "Pavan",
+  "license": "ISC",
+  "devDependencies": {
+    "-": "^0.0.1",
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.1",
+    "@babel/register": "^7.13.16",
+    "@wdio/allure-reporter": "^7.5.7",
+    "@wdio/cli": "^7.5.7",
+    "@wdio/cucumber-framework": "^7.5.3",
+    "@wdio/local-runner": "^7.5.7",
+    "@wdio/spec-reporter": "^7.5.7",
+    "chai": "^4.3.4",
+    "chromedriver": "^90.0.0",
+    "wdio-chromedriver-service": "^7.0.0",
+    "webdriverio": "^7.5.7"
+  },
+  "dependencies": {
+    "cucumber": "^7.0.0-rc.0"
+  }
+}
