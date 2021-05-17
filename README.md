@@ -20,9 +20,12 @@ npm install cucumber --save-dev
 npm i --save-dev @wdio/cli
 npm install
 
+( Since there could be version mismatch with packages, node_modules folder has been uploaded incase npm packages installation failed with any reason.)
+
 Step3. Run wdio test using below command
 
 ./node_modules/.bin/wdio wdio.conf.js      ( MAC OS)
+
 .\node_modules\.bin\wdio wdio.conf.js      (Windows)
 
 # Results saved to allure-results folder
